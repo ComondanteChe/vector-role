@@ -1,8 +1,10 @@
 #SPDX-License-Identifier: MIT-0
 galaxy_info:
   author: OsipovEA
-  description: your role description
+  description: install vector log collector
   company: your company (optional)
+  namespace: osipovea
+  role_name: vector_role
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
