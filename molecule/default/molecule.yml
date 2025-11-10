@@ -7,11 +7,11 @@ platforms:
   - name: centos8
     image: quay.io/centos/centos:stream8
     pre_build_image: true
-  - name: oraclelinux:8
-    image: quay.io/centos/oraclelinux:8
+  - name: oraclelinux8
+    image: docker.io/library/oraclelinux:8
     pre_build_image: true
-  - name: ubuntu:latest
-    image: quay.io/centos/ubuntu:latest
+  - name: ubuntu
+    image: docker.io/library/ubuntu:latest
     pre_build_image: true
 provisioner:
   name: ansible
